@@ -8,8 +8,8 @@ import Pagina2 from "./pagina2.jsx";
 createRoot(document.getElementById('root')).render(
   <StrictMode>
       <BrowserRouter>
-          <Routes>
-              <Route path="/" element={<App />}/>
+          <Routes >
+              <Route path="/carta" element={<App />}/>
               <Route path="/pagina2" element={<Pagina2/>}/>
             </Routes>
       </BrowserRouter>
